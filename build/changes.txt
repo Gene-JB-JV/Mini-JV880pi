@@ -2,13 +2,17 @@
 Fixed buttons send to NukedSC55
 Turned on internal resampler to 64 khz
 Sound driver switched to 64 khz
-Added Up and Down buttons if no encoder (check .ini)
+Added Up and Down GPIO buttons if no encoder (check .ini)
 Added synchronized MIDI parser
 Added Expanded ROM load at start (check .ini)
-Changed .bin loader
+Changed .bin rom loader
 Added save NVRAM via MIDI command (check .ini)
+Added save NVRAM GPIO button (check .ini)
 Added calculation checksum to Roland sysex messages sended to JV880
 Added indication of all original JV880 LEDs on 4x25 OLED Display
+Added network support (RTP MIDI, UDP MIDI, FTP)
+Added MIDI relative encoder (check .ini)
+Fixed сrackling of very loud sounds when mixing
 
 ToDo:
 
