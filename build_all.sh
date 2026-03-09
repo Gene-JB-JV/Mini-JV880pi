@@ -26,3 +26,4 @@ cp src/*.img build/
 
 cp src/minijv880.ini build/
 cp src/changes.txt build/
+cp src/minijv880-configurator.html build/

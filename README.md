@@ -1,8 +1,11 @@
 # Mini-JV880pi ![Github Build Status](https://github.com/Sterr1/Mini-JV880pi/actions/workflows/build.yml/badge.svg)
 
-![JV880](https://github.com/user-attachments/assets/04f92b10-9d01-4172-8356-1d199547d564)
+![mini-JV880pi_main](https://github.com/user-attachments/assets/c5dba58d-9af1-4474-ba59-279ab70eb450)
 
 Mini-JV880pi is a rompler-style synthesizer closely modeled on the famous JV-880 by a well-known Japanese manufacturer running on a bare metal Raspberry Pi (without a Linux kernel or operating system).
+
+[![JV880video1-640yt копия](https://github.com/user-attachments/assets/2f8b8c20-589c-4205-803d-ac27dbdee953)](https://www.youtube.com/watch?v=BBrIYO_e8jA)
+
 
 ## Acknowledgements
 

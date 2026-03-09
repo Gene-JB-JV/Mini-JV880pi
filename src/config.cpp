@@ -125,7 +125,7 @@ void CConfig::Load (void)
 	m_ButtonActionEnter = m_Properties.GetString("ButtonActionEnter", "click");
 	m_ButtonActionUp = m_Properties.GetString("ButtonActionUp", "click");
 	m_ButtonActionDown = m_Properties.GetString("ButtonActionDown", "click");
-	m_ButtonActionSaveNVRAM = m_Properties.GetString("ButtonActionSaveNVRAM", "click");
+	m_ButtonActionSaveNVRAM = m_Properties.GetString("ButtonActionSaveNVRAM", "longpress");
 
 	// MIDI buttons
 	m_nMIDIButtonCh = m_Properties.GetNumber ("MIDIButtonCh", 0);
