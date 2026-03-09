@@ -1462,10 +1462,11 @@ void Pcm::PCM_Update(uint64_t cycles_target)
         if (samples_this_block > BLOCK_SIZE) samples_this_block = BLOCK_SIZE;
 
         // -------- main sample cycle
+        pcm_lock.Acquire();
         for (int sample_i = 0; sample_i < samples_this_block; ++sample_i)
         {
 
-            pcm_lock.Acquire();
+            
             // ---- final mix/noise LFSR: 
             {
                 int shifter = pcm.ram2[30][10];
@@ -2140,11 +2141,11 @@ void Pcm::PCM_Update(uint64_t cycles_target)
                 pcm.ram2[31][7] |= 0x20;
             }
 
-            pcm_lock.Release();
+            
             pcm.nfs = 1;
 
         } // for sample_i
-
+        pcm_lock.Release();
         // increment cycles per block
         pcm.cycles += (uint64_t)samples_this_block * (uint64_t)CYCLES_PER_SAMPLE;
     }
