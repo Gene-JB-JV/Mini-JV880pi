@@ -1,5 +1,5 @@
 1.1.0
-Fixed buttons send to NukedSC55
+Fixed buttons send to Nuked SC55
 Turned on internal resampler to 64 khz
 Sound driver switched to 64 khz
 Added Up and Down GPIO buttons if no encoder (check .ini)
@@ -12,7 +12,9 @@ Added calculation checksum to Roland sysex messages sended to JV880
 Added indication of all original JV880 LEDs on 4x25 OLED Display
 Added network support (RTP MIDI, UDP MIDI, FTP)
 Added MIDI relative encoder (check .ini)
-Fixed сrackling of very loud sounds when mixing
+Fixed crackling of very loud sounds when mixing
+Added bank change. Support all known patches (group by 64) load on the fly.
+Added HTML ini configurator with dependencies for correct .ini file
 
 ToDo:
 
