@@ -1,4 +1,4 @@
-# Mini-JV880pi ![Github Build Status](https://github.com/Sterr1/Mini-JV880pi/actions/workflows/build.yml/badge.svg)
+# Mini-JV880pi 
 
 ![mini-JV880pi_main](https://github.com/user-attachments/assets/c5dba58d-9af1-4474-ba59-279ab70eb450)
 
